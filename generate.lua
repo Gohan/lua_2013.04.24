@@ -5,9 +5,9 @@ local lustache = require "lustache"
 local Widget = {
     WidgetTemplate = [[
 local {{ui_name}} = {
-    ui_type = {{ui_type}},
-    ui_background = {{&ui_background}},
-    childrens = {{childrens_tostring}}
+    ui_type = "{{ui_type}}",
+    ui_background = "{{&ui_background}}",
+    childrens = {{&childrens_tostring}}
 }
 ]],
     new = function(self, o)
