@@ -1,0 +1,20 @@
+D1to_string
+D2to_string
+Buttonto_string
+local D1 = {
+    ui_type = Dialog,
+    ui_background = somewhere/somethere.png,
+    childrens =  {
+        local D2 = {
+            ui_type = Dialog,
+            ui_background = somewhere&#x2F;somethere.png,
+            childrens = {}
+        },
+        local Button = {
+            ui_type = Dialog,
+            ui_background = somewhere&#x2F;somethere.png,
+            childrens = {}
+        },}
+}
+
+0
